@@ -4,16 +4,16 @@ import './App.css'
 
 class App extends Component {
   state = {
-    name: 'John',
-    age: 5,
+    name: 'Stark',
+    age: 99,
     skills: [{ id: 3, name: 'Java' }, { id: 4, name: 'C++' }, { id: 5, name: 'Swift' }]
   }
   handleChangeName = () => {
-    this.setState({ name: 'Smith' })
+    this.setState({ name: 'Anu' })
   }
 
   handleChangeAge = () => {
-    this.setState({ age: 20 })
+    this.setState({ age: 27 })
   }
 
   handleChangeSkill = () => {
